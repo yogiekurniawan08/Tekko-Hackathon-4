@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 10px 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    height: auto;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+
+}
+
+.card1 .img {
+    /* padding-top: 20px; */
+    width: 100%;
+    height: a;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.card1 .isi .description {
+    font-size: 13px;
+    text-align: left;
+    color: rgb(53, 51, 51);
+    padding-top: 0px;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.card1 .isi {
+    padding: 0px 12px 0px 12px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.card1 .isi h3 {
+    font-size: 18px;
+    font-family:
+        'open sans',
+        'tahoma',
+        sans-serif;
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.isi .price1 {
+    font-size: 15px;
+    display: inline-block;
+    margin: 1px;
+    color: rgb(93, 93, 93);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card1 .isi .discount {
+    background-color: lightgreen;
+    padding: 2px 3px;
+    display: inline;
+    font-size: 13px;
+    color: green;
+    margin-right: 4px;
+}
+
+.location {
+    text-align: left;
+    padding: 0px 10px 10px 10px;
+    margin-top: 1px;
+}
+
+.location i {
+    width: 20px;
+    text-align: left;
+    display: inline-block;
+    padding-top: 14px;
+    padding-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("https://images.tokopedia.net/img/official_store_badge.png");
+    margin-right: 4px;
+
+}
+
+.location p {
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    color: rgb(93, 93, 93);
+    margin-bottom: -3px;
+}
+
+.bottom {
+    padding: 0px 10px 10px 10px;
+}
+
+.garis {
+    position: relative;
+}
+
+.garis .front {
+    position: absolute;
+    /* top: 5;
+    left: 5; */
+    background-color: rgb(19, 236, 19);
+    width: 90%;
+    height: 5px;
+    z-index: 1;
+}
+
+
+.back {
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    height: 5px;
+}
+
+.garis p {
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.bottom p {
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    margin: 4px 0px;
+    color: rgb(231, 33, 99);
+}
+
+
+.garis .front1 {
+    position: absolute;
+    /* top: 5;
+    left: 5; */
+    background-color: rgb(19, 236, 19);
+    width: 75%;
+    height: 5px;
+    z-index: 1;
+}
+
+.bottom3 p {
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    margin: 4px 0px;
+    color: rgb(36, 224, 18);
+}
+
+.bottom3 {
+    padding: 0px 10px 10px 10px;
+}
